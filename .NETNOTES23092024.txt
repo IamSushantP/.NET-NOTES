@@ -1,2 +1,44 @@
 # .NET-NOTES
 
+What is .NET?
+.NET is a free, open-source, cross-platform framework developed by Microsoft. It allows developers to build a wide range of applications, including web, mobile, desktop, cloud, IoT, and gaming applications. Originally, it was developed as a proprietary platform for Windows, but over the years, it has evolved to support multiple platforms, making it an ideal choice for developing software that can run on different operating systems like Windows, macOS, and Linux.
+Components of .NET
+Common Language Runtime (CLR): The execution engine of .NET that handles running applications, memory management, security, and exception handling.
+.NET Class Library: A collection of reusable classes, interfaces, and value types that are integrated with the CLR to help developers perform various tasks.
+Language Interoperability: Supports multiple programming languages such as C#, F#, and Visual Basic.
+Evolution of .NET Framework, .NET Core, and .NET 5
+1. .NET Framework
+The original version of .NET (introduced in 2002) was specifically designed for Windows development.
+It provided a comprehensive set of libraries for building Windows desktop applications (using technologies like Windows Forms and WPF) and ASP.NET-based web applications.
+Over time, it grew to support enterprise-level applications, but it was limited to Windows and was not cross-platform.
+Drawbacks:
+Not cross-platform.
+Performance limitations compared to modern frameworks.
+Large memory footprint.
+Difficult to implement modular development or microservices architecture.
+2. .NET Core
+Released in 2016, .NET Core was developed to be a cross-platform, open-source version of .NET, which could run on Windows, macOS, and Linux.
+Designed for modern application development with better performance, scalability, and support for cloud-based solutions.
+A lightweight and modular framework that supports microservices architecture, making it well-suited for cloud-native and high-performance applications.
+Key features of .NET Core:
+Cross-platform: Can run on multiple operating systems (Windows, macOS, Linux).
+Performance: Improved performance compared to the .NET Framework.
+Modular architecture: You can install only the packages you need for your application, reducing the overhead.
+Microservices support: Ideal for developing small, independent services that can communicate with each other.
+Container support: Works well with Docker and Kubernetes for deploying cloud-native applications.
+3. .NET 5
+.NET 5 was introduced in November 2020 as part of Microsoft's unification of the .NET ecosystem. It is the next step after .NET Core 3.1, combining .NET Framework and .NET Core into a single platform.
+Key Goal: To unify the development experience so developers can build applications for various platforms (desktop, web, cloud, IoT, etc.) using the same base framework.
+Key features of .NET 5:
+Unified platform: Provides a single platform for all types of application development (desktop, mobile, web, cloud, IoT, etc.).
+Cross-platform: Like .NET Core, it is cross-platform and can be used to develop applications for Windows, macOS, and Linux.
+High performance: Continued performance improvements, with faster execution times, garbage collection enhancements, and reduced memory footprint.
+New language features: C# 9.0 and F# 5 support, improving developer productivity.
+Single SDK: One SDK to build applications for any platform (Windows, macOS, Linux).
+New APIs: Added APIs and better support for modern development patterns (e.g., cloud-native, microservices).
+
+Summary
+.NET Framework is a legacy platform designed for Windows-only applications and has limitations in modern, cross-platform development.
+.NET Core was created to be a lightweight, high-performance, cross-platform alternative to .NET Framework, optimized for modern app development.
+.NET 5 represents the unification of .NET Core and .NET Framework, creating a single, high-performance, cross-platform framework that supports all application types.
+Starting from .NET 5, Microsoft has committed to an annual release cycle with new features and improvements, allowing developers to continue using a unified platform for all kinds of applications.
